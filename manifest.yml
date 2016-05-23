@@ -1,0 +1,11 @@
+---
+applications:
+- path: JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: OnPremTOCloud2345
+  host: OnPremTOCloud2345
+  disk_quota: 1024M
+  services:
+  - sample_db2inst1_on_QA1
